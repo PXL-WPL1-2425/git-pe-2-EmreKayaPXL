@@ -3,38 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <style>
-
-
-    nav {
-          text-align: center;   /* Centreren */
-    }
-
-    ul {
-        list-style: none;       /*geen opsommingtekens*/
-        font-size: 1.33333em;   /*grotere tekst*/
-        display: grid;          /* je kan bepalen hoe de items worden geplaatst.*/
-        grid-auto-flow: column; /*kolom maken, langs elkaar dus*/
-        color: black;           /*zwarte kleur*/
-        justify-content: center;/*alles in de grid centreren*/
-        padding: 0;             /*geen padding*/
-        margin: 0;              /*geen automatische marge*/
-    }
-
-    li{
-        text: center;           /*centreren*/
-        margin-right: 30px;     /* ruimte tussen voegen */
-    }
-
-  </style>
+    <link rel="stylesheet" href="riot-games.css">
 </head>
+
+
 <body>
-<nav>
-    <ul class="Navigatie">
-        <li>Who we are</li>
-        <li>Work with us</li>
-        <li>News</li>
-    </ul>
-</nav>
+<div class="nav-container">
+
+
+         <div class="logo">
+                 <img  src="riot-games-logo.svg" alt="riot-games-logo">
+         </div>
+
+          <nav>
+              <ul class="Navigatie">
+
+                    <li>Who we are</li>
+                    <li>Work with us</li>
+                    <li>News</li>
+
+              </ul>
+         </nav>
+
+</div>
 </body>
 </html>
